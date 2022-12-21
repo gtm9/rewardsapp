@@ -14,3 +14,12 @@
     "name": "NAME",
     "transactions": [<list of transactions for 3 months>]
   },
+
+  #The app design
+  I have utilized a json file for the transaction data. It contains the appropriate information required to demonstrate a rewards application to be simple and functional.
+  I implemented a rewards.js file to showcase the reusable component developemnt startegy. The customer data can be passed down as props to any created component and rendered as demanded.
+  
+  #Future imporvements
+  1. Depeneding on the APIs, which send in the individual customer data, rewards can be calculated as required by this app.
+  2. If the raw data has Date Time information, the code can be modified to add up all the transactions for each month and then feed it to the same app to calculate for every 3 months.
+  
